@@ -36,6 +36,7 @@ SECTIONS
         __data_start__ = .;
         __data_start = .;
         *(.data .data.*)      /* Data memory */
+        *(ramoverlay)
         __data_end__ = .;
         __data_end = .;
     } >ram AT >flash

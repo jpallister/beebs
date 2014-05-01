@@ -1,4 +1,10 @@
 2014-03-20  James Pallister  <james.pallister@bristol.ac.uk>
+    Added loading of extra section in linker script for cortex-m3
+
+    * src/platformcode/stm32vl_flash.ld: Added ramoverlay section to be
+       loaded from the data section
+
+2014-03-20  James Pallister  <james.pallister@bristol.ac.uk>
 	Centralised benchmark list, so benchmarks can be excluded for each
 	platform. The list of benchmarks is embedded into configure.ac, and
 	expanded using a m4 macro. This allows each benchmark to check whether
