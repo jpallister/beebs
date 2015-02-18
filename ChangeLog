@@ -1,3 +1,9 @@
+2015-02-18  James Pallister  <james.pallister@bristol.ac.uk>
+	Updated some of the calibration values for the STM32vldiscoveryx
+
+	* config/arm/boards/stm32vldiscovery/calibration: Updated some of the
+	    calibration values for the STM32vldiscoveryx
+
 2014-12-23  James Pallister  <james.pallister@bristol.ac.uk>
 	Added support for the stm32l0discovery board, with cortex-m0+
 
