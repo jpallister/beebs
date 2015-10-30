@@ -1,3 +1,21 @@
+2015-10-30  James Pallister  <james.pallister@bristol.ac.uk>
+	Added config files for the beaglebone
+
+	* config/arm/boards/beaglebone/board.cfg: Board config for beagle bone
+	* config/arm/boards/beaglebone/boardsupport.c: Board support code. Set
+	    up MMU, caches, etc
+	* config/arm/boards/beaglebone/calibration: Calibration file for
+	    beagle bone
+	* config/arm/chips/am335x/chip.cfg: Chip config file for the beagle
+	    bone
+	* config/arm/chips/am335x/chip.ld: Linker script for the beagle bone
+	* config/arm/chips/am335x/chipsupport.c: Chip support code. Set up
+	    MMU, caches, etc
+	* config/arm/chips/am335x/chipsupport.h: Chip support code. Set up
+	    MMU, caches, etc
+	* config/arm/chips/am335x/init.s: Start up code for the bare metal
+	    beaglebone
+
 2015-02-18  James Pallister  <james.pallister@bristol.ac.uk>
 	Updated some of the calibration values for the STM32vldiscoveryx
 
